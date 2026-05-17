@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / test output
+coverage/
+.nyc_output/
+lib-cov/
+
+# Build artifacts
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Caches
+.npm
+.eslintcache
+.cache/
+.parcel-cache/
+.node_repl_history
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# App data (this app's local storage lives in ~/.todo-app, but
+# guard against any stray local data dir in the repo)
+.todo-app/
