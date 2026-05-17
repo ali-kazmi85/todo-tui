@@ -1,0 +1,29 @@
+{
+  "name": "todo-tui",
+  "version": "1.0.0",
+  "description": "TUI-based Todo App built with Node.js and blessed",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "todo-tui": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "keywords": [
+    "todo",
+    "tui",
+    "cli",
+    "blessed",
+    "terminal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}
