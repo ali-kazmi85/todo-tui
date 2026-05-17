@@ -1,0 +1,30 @@
+{
+  "name": "todo-tui",
+  "version": "0.1.0",
+  "description": "Terminal UI based Todo app built with Node.js + ink",
+  "type": "module",
+  "bin": {
+    "todo-tui": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test 'tests/**/*.test.js'"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ink": "^5.0.1",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "todo",
+    "tui",
+    "cli",
+    "ink",
+    "terminal"
+  ],
+  "license": "MIT"
+}

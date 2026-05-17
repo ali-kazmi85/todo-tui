@@ -1,0 +1,12 @@
+{
+  "scope": "medium",
+  "confidence": 4,
+  "explanation": "This is a well-defined greenfield project to build a complete TUI-based Todo application. Core features (CRUD, persistence) are straightforward (~50-70% effort), but UI implementation using blessed/ink with split-pane layout and keyboard navigation adds moderate complexity (~20-30%). The issue provides clear specs, data model, keybindings, and project structure. Stretch goals (filtering/sorting) are optional. No blockers identified. Estimated 2-4 weeks for full implementation with core + UI features.",
+  "questions": [
+    "Which TUI library is preferred: blessed (lower-level, more control) or ink (React-based, potentially faster to scaffold)?",
+    "Should the app support both JavaScript (ESM) and TypeScript, or is one language preferred?",
+    "For the detail/preview panel on the right, should it show the full todo details or a preview? Should it support inline editing?",
+    "Should the search/filter feature (/) be implemented as part of core or deferred to stretch goals?",
+    "Are there preferences for error handling/recovery (e.g., corrupted JSON, file permission issues)?"
+  ]
+}
